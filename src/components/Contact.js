@@ -14,28 +14,24 @@ const Contact = () => {
             <li>
               <div className="item">
                 <p>
-                  Duis suscipit egestas ullamcorper. Cras porta nulla et
-                  tristique pellentesque. Praesent finibus mauris eu
-                  sollicitudin interdum. Morbi et blandit quam. Donec vitae
-                  massa purus. Curabitur nunc mauris, iaculis a nibh at,
-                  ultricies sodales dolor.
+                   Get in Touch with VIT Chennai VR Club
                 </p>
                 <p>
-                  Curabitur pharetra velit eget dignissim varius. In vulputate
-                  elit at tortor pellentesque, non pulvinar neque consequat.
+                We'd love to hear from you! If you have any questions, suggestions, or just want to chat about all things virtual reality and tech, feel free to reach out to us. Here's how you can get in touch.
                 </p>
+              
               </div>
             </li>
             <li>
               <div className="item">
                 <h4 className="label">Phone</h4>
                 <h3>
-                  <a href="tel:+770221770505">+77 022 177 05 05</a>
+                  <a href="tel:+91 9630576848">+91 9630576848</a>
                 </h3>
                 <h4 className="lable">Email</h4>
                 <h3>
-                  <a href="mailto:frenifyteam@gmail.com">
-                    frenifyteam@gmail.com
+                  <a href="mailto:Hello@vinayaksingh.com">
+                  Hello@vinayaksingh.com
                   </a>
                 </h3>
               </div>
@@ -43,7 +39,7 @@ const Contact = () => {
             <li>
               <div className="item">
                 <h4 className="label">Office</h4>
-                <h3>124 S Main St, Scottville, MI 49454, United States</h3>
+                <h3>D1 Block,Room 723,<br></br>VIT Chennai</h3>
               </div>
             </li>
           </ul>
@@ -75,7 +71,7 @@ const Contact = () => {
                   <input
                     id="subject"
                     type="text"
-                    placeholder="Topic (optional)"
+                    placeholder="Subject (optional)"
                   />
                 </li>
                 <li className="full">

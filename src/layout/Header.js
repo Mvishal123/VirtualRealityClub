@@ -14,13 +14,13 @@ const Header = ({ walletToggle, navigationToggle }) => {
       <div className="header">
         <div className="header_in">
           <div className="trigger_logo">
-            <div className="trigger" onClick={() => navigationToggle(true)}>
+            <div className="trigger" onClick={() => navigationToggle(false)}>
               <span />
             </div>
             <div className="logo">
               <Link href="/">
                 <a>
-                  <img src="/img/logo.png" alt="" />
+                  <img src="/img/logo.png" alt="" height={50} />
                 </a>
               </Link>
             </div>
@@ -30,6 +30,11 @@ const Header = ({ walletToggle, navigationToggle }) => {
               <li>
                 <Link href="/#home">
                   <a className="creative_link">Home</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/#fun_facts">
+                  <a className="creative_link">Achivements</a>
                 </Link>
               </li>
               <li>
@@ -43,15 +48,16 @@ const Header = ({ walletToggle, navigationToggle }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/#news">
-                  <a className="creative_link">Blog</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/#">
+                <Link href="/#roadmap">
                   <a className="creative_link">Events</a>
                 </Link>
               </li>
+              {/* <li>
+                <Link href="/#news">
+                  <a className="creative_link">Blog</a>
+                </Link>
+              </li> */}
+          
               <li>
                 <Link href="/#contact">
                   <a className="creative_link">Contact</a>
@@ -64,11 +70,11 @@ const Header = ({ walletToggle, navigationToggle }) => {
               href="#"
               onClick={(e) => {
                 e.preventDefault();
-                walletToggle(true);
+                walletToggle(false);
               }}
               className="metaportal_fn_button wallet_opener"
             >
-              <span>Connect To Wallet</span>
+              <span>Join Now</span>
             </a>
           </div>
         </div>

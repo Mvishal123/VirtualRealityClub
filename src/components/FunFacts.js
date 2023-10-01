@@ -10,10 +10,10 @@ const FunFacts = () => {
               <div className="item">
                 <h3 className="fn__gradient_title">
                   <span className="prefix" />
-                  <Counter end={9999} />
+                  <Counter end={23} />
                   <span className="suffix" />
                 </h3>
-                <p>Total Items</p>
+                <p>Total Events</p>
                 <div className="divider" />
               </div>
             </li>
@@ -21,21 +21,12 @@ const FunFacts = () => {
               <div className="item">
                 <h3 className="fn__gradient_title">
                   <span className="prefix" />
-                  <Counter end={3.9} decimals={2} />
+                  {/* <Counter end={2.4} decimals={2} /> */}
+                  <Counter end={500} />
                   <span className="suffix">k+</span>
-                </h3>
-                <p>Total Owners</p>
-                <div className="divider" />
-              </div>
-            </li>
-            <li>
-              <div className="item">
-                <h3 className="fn__gradient_title">
-                  <span className="prefix" />
-                  <Counter end={2.4} decimals={2} />
                   <span className="suffix" />
                 </h3>
-                <p>Floor Price (ETH)</p>
+                <p>Team Members</p>
                 <div className="divider" />
               </div>
             </li>
@@ -43,10 +34,21 @@ const FunFacts = () => {
               <div className="item">
                 <h3 className="fn__gradient_title">
                   <span className="prefix" />
-                  <Counter end={144} />
+                  <Counter end={9.5} />
                   <span className="suffix">k+</span>
                 </h3>
-                <p>Volume Traded (ETH)</p>
+                <p>Total Viewers</p>
+                <div className="divider" />
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                <h3 className="fn__gradient_title">
+                  <span className="prefix" />
+                  <Counter end={1.8} decimals={1} />
+                  <span className="suffix">L+</span>
+                </h3>
+                <p>Total Funding</p>
                 <div className="divider" />
               </div>
             </li>

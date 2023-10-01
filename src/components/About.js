@@ -6,19 +6,19 @@ const About = () => {
       <div className="fn_cs_about">
         <div className="left_part">
           <div className="img">
-            <div className="img_in" data-bg-img="/img/about/1.jpg">
+            <div className="img_in" data-bg-img="/img/4.jpg">
               <img src="/img/1x1.jpg" alt="" />
             </div>
           </div>
           <div className="bg_overlay">
             <div className="bg_color" />
-            <div className="bg_image" data-bg-img="/img/about/bg.jpg" />
+            <div className="bg_image" data-bg-img="/img/5.jpg" />
           </div>
         </div>
         <div className="right_part">
           <div className="right_in">
-            <h3 className="fn__maintitle" data-text="The Rise of Legends">
-              The Rise of Legends
+            <h3 className="fn__maintitle" data-text="About Us">
+            About Us
             </h3>
             <div className="fn_cs_divider">
               <div className="divider">
@@ -28,41 +28,21 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                As the first hero of the Meta Legends, collection has over 9,999
-                unique skins drawn from the different missions and challenges he
-                faced throughout his life.
+              Hey there, tech enthusiasts and virtual adventurers!<br></br> We are VIT Chennai's VR Club, and we're here to redefine the way you experience technology. 🚀<br></br>We are a dynamic group of students passionate about all things virtual reality. <br></br>Our club is a hub for the latest VR innovations, immersive experiences, and creative tech endeavors. 🎮💡
+              <br></br><br></br>What We Do:<br></br><br></br>🔮 Explore Immersive Realms:<br></br> Dive into mind-bending virtual worlds that blur the line between reality and imagination. Experience breathtaking adventures right from our campus.<br></br>🌐Digitalize Personal Space:<br></br> Discover how VR can transform your personal space with cutting-edge visualization techniques. From gaming to design, we've got you covered.<br></br>🌈 Mixed Reality Magic:<br></br>We're all about creating mixed reality experiences that'll leave you in awe. From augmented reality art installations to VR-powered education, we're pushing boundaries.<br></br>💡 Tech Innovation:<br></br>Stay on the bleeding edge of technology as we explore the latest VR gadgets, software, and trends. We love experimenting and tinkering with new tech toys.<br></br><br></br> Join the VR Revolution:<br></br>Whether you're a VR veteran or just curious about this futuristic tech, we welcome all VIT Chennai students to join our club. Together, we'll venture into uncharted digital territories and redefine what's possible.<br></br>
+              <br></br>Ready to unlock the limitless potential of virtual reality? Join us at VIT Chennai VR Club, where dreams go digital! 🌐🚀
               </p>
               <p>
-                The artwork has been hand-drawned by Robert Green in the
-                traditional anime style and composited by Layla Efiyo.
-              </p>
-              <p>
-                Curabitur pharetra velit eget dignissim varius. In vulputate
-                elit at tortor pellentesque, non pulvinar neque consequat.
-                Aenean tristique odio in libero tincidunt maximus. Nulla
-                pharetra viverra dolor ut blandit. Cras finibus vel tortor eget
-                lacinia. Pellentesque interdum elit non lacinia faucibus. Morbi
-                nec felis auctor, tincidunt lacus sit amet, iaculis ipsum.
-                Phasellus tempus sit amet justo et feugiat. Duis blandit semper
-                lorem, egestas euismod ligula pharetra ac. Sed porta lorem eget
-                neque bibendum, eget euismod justo mollis.
-              </p>
-              <p>
-                Donec tristique porttitor sem, eget fermentum elit varius nec.
-                Donec ut orci ipsum. Morbi efficitur felis eget dapibus
-                fermentum. Phasellus sed tellus volutpat, hendrerit leo non,
-                sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl
-                tellus, at congue odio commodo at. Cras ante enim, sodales at
-                pretium et, tempus at libero.
+              Let's dive into the future together!
               </p>
             </div>
             <a
-              href="https://discord.com/"
+              href="/"
               className="metaportal_fn_button"
               target="_blank"
               rel="noreferrer"
             >
-              <span>Find us On Discord</span>
+              <span>Join Now</span>
             </a>
           </div>
         </div>
@@ -72,8 +52,8 @@ const About = () => {
         {/* Mint Shortcode */}
         <div className="fn_cs_mint">
           <div className="left_part">
-            <h3 className="fn__maintitle" data-text="How to Mint">
-              How to Mint
+            <h3 className="fn__maintitle" data-text="Fun-tastic Events in VR Club">
+             Fun-tastic Events in VR Club
             </h3>
             <div className="fn_cs_divider">
               <div className="divider">
@@ -83,37 +63,18 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                As the first hero of the Meta Legends, collection has over 9,999
-                unique skins drawn from the different missions and challenges he
-                faced throughout his life.
+                Get ready for a whirlwind of excitement with our Fun-tastic Events at VIT Chennai VR Club! 🎉
               </p>
               <p>
-                The artwork has been hand-drawned by Robert Green in the
-                traditional anime style and composited by Layla Efiyo.
+              Get ready for a blast! 🚀 Our Fun-tastic Events at VIT Chennai VR Club are all about mixing learning with a whole lot of fun. From epic gaming showdowns to mind-bending art exhibits, we've got something for everyone. Join us and let's make tech awesome together! 🎉🎮🎨
               </p>
               <p>
-                Curabitur pharetra velit eget dignissim varius. In vulputate
-                elit at tortor pellentesque, non pulvinar neque consequat.
-                Aenean tristique odio in libero tincidunt maximus. Nulla
-                pharetra viverra dolor ut blandit. Cras finibus vel tortor eget
-                lacinia. Pellentesque interdum elit non lacinia faucibus. Morbi
-                nec felis auctor, tincidunt lacus sit amet, iaculis ipsum.
-                Phasellus tempus sit amet justo et feugiat. Duis blandit semper
-                lorem, egestas euismod ligula pharetra ac. Sed porta lorem eget
-                neque bibendum, eget euismod justo mollis.
-              </p>
-              <p>
-                Donec tristique porttitor sem, eget fermentum elit varius nec.
-                Donec ut orci ipsum. Morbi efficitur felis eget dapibus
-                fermentum. Phasellus sed tellus volutpat, hendrerit leo non,
-                sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl
-                tellus, at congue odio commodo at. Cras ante enim, sodales at
-                pretium et, tempus at libero.
+              Join the party at VIT Chennai VR Club's Fun-tastic Events! 🥳🕹️ We're cooking up a storm of fun and excitement with gaming competitions, VR adventures, and mind-blowing tech showcases. Don't miss out on the most electrifying events on campus! Stay tuned for a wild ride with us. 🎉🎮🚀
               </p>
             </div>
             <Link href="/nft-single">
               <a className="metaportal_fn_button">
-                <span>How to Mint</span>
+                <span>Join Now</span>
               </a>
             </Link>
           </div>
@@ -124,32 +85,32 @@ const About = () => {
                 <li>
                   <div className="item">
                     <div className="item_in">
-                      <h3 className="fn__gradient_title">01</h3>
-                      <p>Connect your Wallet</p>
+                      <h3 className="fn__gradient_title">Play</h3>
+                      <p>Jump into the virtual playground and score a chance to win!</p>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="item">
                     <div className="item_in">
-                      <h3 className="fn__gradient_title">02</h3>
-                      <p>Select Your Quantity</p>
+                      <h3 className="fn__gradient_title">Learn</h3>
+                      <p>Unleash the Coolest VR Tech in Town!</p>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="item">
                     <div className="item_in">
-                      <h3 className="fn__gradient_title">03</h3>
-                      <p>Confirm The Transaction</p>
+                      <h3 className="fn__gradient_title">Enjoy</h3>
+                      <p>Summon your coding to conjure up some digital magic!</p>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className="item">
                     <div className="item_in">
-                      <h3 className="fn__gradient_title">04</h3>
-                      <p>Receive Your NFT’s</p>
+                      <h3 className="fn__gradient_title">Develop</h3>
+                      <p>Let's create and add to the digital universe!</p>
                     </div>
                   </div>
                 </li>
@@ -157,7 +118,7 @@ const About = () => {
             </div>
             {/* !Steps Shortcode */}
             {/* Video Shortcode */}
-            <div className="fn_cs_video">
+            {/* <div className="fn_cs_video">
               <img src="/img/video/1.jpg" alt="" />
               <a
                 className="popup-youtube"
@@ -165,7 +126,7 @@ const About = () => {
               >
                 <img src="/svg/play.svg" alt="" className="fn__svg" />
               </a>
-            </div>
+            </div> */}
             {/* /Video Shortcode */}
           </div>
         </div>
@@ -181,8 +142,8 @@ export const About2 = () => (
     <div className="container small">
       <div className="fn_cs_shortabout">
         <div className="about_left">
-          <h3 className="fn__maintitle" data-text="The Rise of Legends">
-            The Rise of Legends
+          <h3 className="fn__maintitle" data-text="Join Now">
+          Join Now
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">

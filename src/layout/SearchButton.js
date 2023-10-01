@@ -7,7 +7,7 @@ const SearchButton = ({ searchToggle }) => {
       className="metaportal_fn_search hold"
       onClick={(e) => {
         e.preventDefault();
-        searchToggle(true);
+        searchToggle(false);
       }}
     >
       <span className="icon">

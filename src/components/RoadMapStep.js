@@ -6,10 +6,10 @@ const RoadMapSlider = () => {
       <div className="container">
         <h3
           className="fn__maintitle big"
-          data-text="RoadMap"
+          data-text="Events"
           data-align="center"
         >
-          RoadMap
+          Events
         </h3>
         <div className="fn_cs_roadmap">
           <div className="step_holder">
