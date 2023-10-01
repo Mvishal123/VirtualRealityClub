@@ -151,14 +151,13 @@ const Collection = () => {
         </div>
         <div className="fn_cs_desc">
           <p>
-            Meta Legends represent a collection of 17,000 legends categorized by
-            level of rarity and generated with hundreds of elements. The Legends
-            are stored as ERC-721 tokens on the Ethereum blockchain and hosted
-            on IPFS.
+          Our team members at VIT VR Club are a fusion of tech wizards, creative minds, and passionate VR enthusiasts, all united to redefine the virtual experience." 🌟🔮🚀
           </p>
-          <Link href="/collection">
+          {/* <Link href="/collection"> */}
+          <Link href="/">
+
             <a className="metaportal_fn_button">
-              <span>See All Collection</span>
+              <span>View All Team Members</span>
             </a>
           </Link>
         </div>
