@@ -20,7 +20,9 @@ const Header = ({ walletToggle, navigationToggle }) => {
             <div className="logo">
               <Link href="/">
                 <a>
-                  <img src="/img/logo.png" alt="" height={50} />
+                  {/* <img src="/img/logo.png" alt="" height={50} /> */}
+                  {/* <Image src="/img/logo.png" alt="" height={50} /> */}
+
                 </a>
               </Link>
             </div>

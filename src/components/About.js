@@ -7,7 +7,10 @@ const About = () => {
         <div className="left_part">
           <div className="img">
             <div className="img_in" data-bg-img="/img/4.jpg">
-              <img src="/img/1x1.jpg" alt="" />
+              {/* <img src="/img/1x1.jpg" alt="" /> */}
+              {/* <Image src="/img/1x1.jpg" alt="" width={width} height={height} /> */}
+
+
             </div>
           </div>
           <div className="bg_overlay">
@@ -197,7 +200,7 @@ export const About2 = () => (
         className="popup-youtube"
         href="https://www.youtube.com/embed/7e90gBu4pas"
       >
-        <img src="/svg/play.svg" alt="" className="fn__svg" />
+        {/* <img src="/svg/play.svg" alt="" className="fn__svg" /> */}
       </a>
     </div>
     <div className="container">
