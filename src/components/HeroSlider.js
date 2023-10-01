@@ -133,67 +133,67 @@ const HeroSlider = () => {
         {/* Slider */}
         <div className="fn_cs_slider" data-responsive="on">
           <div className="slider_top">
-            <img src="/img/1x1.jpg" alt="" />
+            <img src="img/1.jpg" alt="" />
             <ul>
               <li className="prev" data-index={1}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="img/1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/1.jpg" />
+                    <div className="img" data-bg-img="img/1.jpg" />
                   </div>
                 </div>
               </li>
               <li className="active" data-index={2}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="img/1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/2.jpg" />
+                    <div className="img" data-bg-img="img/1.jpg" />
                   </div>
                 </div>
               </li>
               <li className="next" data-index={3}>
                 <div className="item has_video">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="img/1.jpg" alt="" />
                   <a
                     className="popup-youtube metaportal_fn_videobutton"
-                    href="https://www.youtube.com/embed/7e90gBu4pas"
+                    href="https://www.youtube.com/watch?v=TX9qSaGXFyg"
                   >
                     <img src="/svg/play.svg" alt="" className="fn__svg" />
                   </a>
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/3.jpg" />
+                    <div className="img" data-bg-img="img/1.jpg" />
                   </div>
                 </div>
               </li>
               <li className="next2" data-index={4}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="img/1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/4.jpg" />
+                    <div className="img" data-bg-img="img/1.jpg" />
                   </div>
                 </div>
               </li>
               <li data-index={5}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="img/1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/5.jpg" />
+                    <div className="img" data-bg-img="img/1.jpg" />
                   </div>
                 </div>
               </li>
               <li data-index={6}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="img/1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/6.jpg" />
+                    <div className="img" data-bg-img="img/1.jpg" />
                   </div>
                 </div>
               </li>
               <li className="prev2" data-index={7}>
                 <div className="item">
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="img/1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/7.jpg" />
+                    <div className="img" data-bg-img="img/1.jpg" />
                   </div>
                 </div>
               </li>
@@ -220,18 +220,15 @@ const HeroSlider = () => {
         {/* Description */}
         <div className="fn_cs_desc">
           <p>
-            Meta Legends represent a collection of 17,000 legends categorized by
-            level of rarity and generated with hundreds of elements. The Legends
-            are stored as ERC-721 tokens on the Ethereum blockchain and hosted
-            on IPFS.
+          VR Club is lit! It's like a virtual reality hangout where we dive into epic digital realms. Get ready to level up your personal space with some mind-blowing visuals. We're all about creating a dope mixed reality virtual world. 🚀✨
           </p>
           <a
-            href="https://opensea.io/"
+            href="https://google.com/"
             className="metaportal_fn_button"
             target="_blank"
             rel="noreferrer"
           >
-            <span>Buy On Opensea</span>
+            <span>Explore More</span>
           </a>
         </div>
         {/* !Description */}

@@ -42,10 +42,10 @@ const Collection = () => {
       <div className="container">
         <h3
           className="fn__maintitle big"
-          data-text="Our Collection"
+          data-text="Team Members"
           data-align="center"
         >
-          Our Collection
+          Team Members
         </h3>
         <div className="fn_cs_collection">
           <div className="collection_top">
@@ -54,48 +54,48 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/1.jpg"
+                    data-bg-img="/img/2.jpg"
                   />
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/2.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/1.jpg" />
+              <input type="hidden" defaultValue="/img/2.jpg" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/2.jpg"
+                    data-bg-img="/img/3.png"
                   />
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/3.png" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/2.jpg" />
+              <input type="hidden" defaultValue="/img/3.png"/>
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/3.jpg"
+                    data-bg-img="/img/3.png"
                   />
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/3.png" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/3.jpg" />
+              <input type="hidden" defaultValue="/img/3.png" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/4.jpg"
+                    data-bg-img="/img/3.png"
                   />
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/3.png" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/4.jpg" />
+              <input type="hidden" defaultValue="/img/3.png" />
             </div>
           </div>
           <div className="collection_bottom">
@@ -104,48 +104,48 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/5.jpg"
+                    data-bg-img="/img/3.png"
                   />
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/3.png" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/5.jpg" />
+              <input type="hidden" defaultValue="/img/3.png" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/6.jpg"
+                    data-bg-img="/img/3.png"
                   />
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/3.png" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/6.jpg" />
+              <input type="hidden" defaultValue="/img/3.png" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/7.jpg"
+                    data-bg-img="/img/3.png"
                   />
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/3.png" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/7.jpg" />
+              <input type="hidden" defaultValue="/img/3.png" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/8.jpg"
+                    data-bg-img="/img/3.png"
                   />
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/3.png" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/8.jpg" />
+              <input type="hidden" defaultValue="/img/3.png" />
             </div>
           </div>
         </div>
