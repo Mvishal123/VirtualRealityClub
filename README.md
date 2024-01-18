@@ -23,7 +23,7 @@ To get started with the project, follow these steps:
 2.Go to the project directory
 
 ```bash
-  cd my-project
+  cd VirtualRealityClub
 ```
 
 3.Install the necessary dependencies.
