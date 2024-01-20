@@ -23,10 +23,10 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="Event">Event 01</span>
                     <div className="item_in">
-                      <p className="date">October 09, 2023</p>
-                      <h3 className="title">VR Showdown Smackdown</h3>
+                      <p className="date">June 02, 2023</p>
+                      <h3 className="title">Curtain Raiser</h3>
                       <p className="desc">
-                      Get your game face on for an epic VR gaming competition that will test your skills and crown the ultimate champion.
+                      Step into a virtual realm at our club's curtain raiser event - where reality gets redefined
                       </p>
                     </div>
                   </div>
@@ -36,10 +36,10 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="Event">Event 02</span>
                     <div className="item_in">
-                      <p className="date">October 17, 2023</p>
-                      <h3 className="title">Artistry in Virtual Reality</h3>
+                      <p className="date">June 13, 2023</p>
+                      <h3 className="title">Virtual Escape</h3>
                       <p className="desc">
-                      Unleash your creativity in the virtual realm with an art exhibition that merges the digital and physical worlds.
+                      Learn, Compete, Win !
                       </p>
                     </div>
                   </div>
@@ -49,10 +49,10 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="Event">Event 03</span>
                     <div className="item_in">
-                      <p className="date">October 28, 2023</p>
-                      <h3 className="title">VR Tech Talk & Chill</h3>
+                      <p className="date">August 11, 2023</p>
+                      <h3 className="title">Club Expo</h3>
                       <p className="desc">
-                      Kick back and dive deep into the latest VR tech trends with expert speakers, discussions, and plenty of chill vibes..
+                      Club Expo Experience - where innovation meets excitement, creating unforgettable moments
                       </p>
                     </div>
                   </div>
@@ -62,10 +62,10 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="Event">Event 04</span>
                     <div className="item_in">
-                      <p className="date">November 11, 2023</p>
-                      <h3 className="title">VR Escape Room Adventure</h3>
+                      <p className="date">September 1, 2023</p>
+                      <h3 className="title">Clueminati</h3>
                       <p className="desc">
-                      Embark on a thrilling virtual escape room challenge where you must work together to solve puzzles and break free
+                      Experience a mysterious event where you will solve puzzles, find clues and conquer thriller challenges
                       </p>
                     </div>
                   </div>
@@ -75,10 +75,10 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="Event">Event 05</span>
                     <div className="item_in">
-                      <p className="date">November 23, 2023</p>
-                      <h3 className="title">VR Movie Night Under the Stars</h3>
+                      <p className="date">September 27, 2023</p>
+                      <h3 className="title">HACK-A-THON Unity Workshop</h3>
                       <p className="desc">
-                      Experience cinematic magic like never before with a virtual movie night under a virtual starry sky.
+                      Dive into the future of art at our online 3D Painting Event
                       </p>
                     </div>
                   </div>
@@ -88,10 +88,10 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="Event">Event 06</span>
                     <div className="item_in">
-                      <p className="date">December 02, 2023</p>
-                      <h3 className="title">VR Game Jam Bonanza</h3>
+                      <p className="date">October 06, 2023</p>
+                      <h3 className="title">Gamers Nexus</h3>
                       <p className="desc">
-                      Join forces with fellow gamers and developers for a high-speed game jam to create innovative VR games in record time.
+                      Gear up and immerse yourself in high-octane VR gaming with your own VR headset.
                       </p>
                     </div>
                   </div>
@@ -101,49 +101,10 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="Event">Event 07</span>
                     <div className="item_in">
-                      <p className="date">January 14, 2024</p>
-                      <h3 className="title">VR Karaoke Party</h3>
+                      <p className="date">January 2024</p>
+                      <h3 className="title">Upcoming</h3>
                       <p className="desc">
-                      Grab the mic and sing your heart out in a virtual world filled with your favorite tunes and a lively crowd. 
-                      </p>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="item">
-                    <span className="icon" />
-                    <span className="Event">Event 08</span>
-                    <div className="item_in">
-                      <p className="date">January 28, 2024</p>
-                      <h3 className="title">VR Fitness Challenge</h3>
-                      <p className="desc">
-                      Break a sweat and have a blast with VR fitness challenges that make working out feel like an adventure.
-                      </p>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="item">
-                    <span className="icon" />
-                    <span className="Event">Event 09</span>
-                    <div className="item_in">
-                      <p className="date">February 12, 2024</p>
-                      <h3 className="title">VR Hackathon: Building the Future</h3>
-                      <p className="desc">
-                      Put your coding and VR skills to the test in a hackathon that aims to create groundbreaking virtual experiences.
-                      </p>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="item">
-                    <span className="icon" />
-                    <span className="Event">Event 10</span>
-                    <div className="item_in">
-                      <p className="date">February 27, 2024</p>
-                      <h3 className="title">VR World Tour</h3>
-                      <p className="desc">
-                      Take a globe-trotting journey without leaving your seat as you explore famous landmarks and exotic destinations through VR travel experiences.
+                      Stay Tuned!
                       </p>
                     </div>
                   </div>
