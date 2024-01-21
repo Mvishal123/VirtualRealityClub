@@ -223,7 +223,7 @@ const HeroSlider = () => {
           VR Club is lit! It's like a virtual reality hangout where we dive into epic digital realms. Get ready to level up your personal space with some mind-blowing visuals. We're all about creating a dope mixed reality virtual world. 🚀✨
           </p>
           <a
-            href="https://google.com/"
+            href="https://virtualrealityclub.vercel.app/"
             className="metaportal_fn_button"
             target="_blank"
             rel="noreferrer"
