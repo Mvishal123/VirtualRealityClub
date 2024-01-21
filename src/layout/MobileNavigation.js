@@ -30,18 +30,23 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
               </a>
             </li>
             <li>
+              <a className="creative_link" href="#fun_facts">
+              Achivements
+              </a>
+            </li>
+            <li>
               <a className="creative_link" href="#about">
                 About
               </a>
             </li>
             <li>
-              <a className="creative_link" href="#collection">
-                Collection
+              <a className="creative_link" href="#roadmap">
+                Events
               </a>
             </li>
             <li>
-              <a className="creative_link" href="#news">
-                Blog
+              <a className="creative_link" href="#collection">
+              Team Members
               </a>
             </li>
             <li>
