@@ -9,7 +9,6 @@ import MobileNavigation from "./MobileNavigation";
 import Navigation from "./Navigation";
 import PreLoader from "./PreLoader";
 import ScrollTop from "./ScrollTop";
-// import Searchbox from "./Searchbox";
 import SearchButton from "./SearchButton";
 import Social from "./Social";
 import WalletPopUp from "./WalletPopUp";
@@ -31,10 +30,7 @@ const Layout = ({ children, pageTitle }) => {
       {/* !Preloader */}
       {/* Left Navigation */}
       <Navigation />
-      {/* !Left Navigation */}
-      {/* Searchbox Popup */}
-      {/* <Searchbox /> */}
-      {/* !Searchbox Popup */}
+
       {/* Wallet Popup */}
       <WalletPopUp />
       {/* !Wallet Popup */}

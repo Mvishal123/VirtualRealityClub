@@ -986,7 +986,7 @@ a.full_link{
 
 #home{
 	overflow: hidden;
-	padding-top: 179px;
+	padding-top: 100px;
 	padding-bottom: 150px;
 }
 
@@ -5401,7 +5401,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	.metaportal_fn_mint_top{
 		padding-top: 150px;
 	}
-	#home{padding-top: 150px;}
+	#home{padding-top: 50px;}
 	.metaportal_fn_searchbox input{
 		font-size: 26px;
 		height: 70px;

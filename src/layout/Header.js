@@ -14,15 +14,10 @@ const Header = ({ walletToggle, navigationToggle }) => {
       <div className="header">
         <div className="header_in">
           <div className="trigger_logo">
-            <div className="trigger" onClick={() => navigationToggle(false)}>
-              <span />
-            </div>
-            <div className="logo">
+          <div className="logo">
               <Link href="/">
                 <a>
-                  {/* <img src="/img/logo.png" alt="" height={50} /> */}
-                  {/* <Image src="/img/logo.png" alt="" height={50} /> */}
-
+                  <img src="/img/logo.png" alt="" width={200} />
                 </a>
               </Link>
             </div>
@@ -54,12 +49,6 @@ const Header = ({ walletToggle, navigationToggle }) => {
                   <a className="creative_link">Events</a>
                 </Link>
               </li>
-              {/* <li>
-                <Link href="/#news">
-                  <a className="creative_link">Blog</a>
-                </Link>
-              </li> */}
-          
               <li>
                 <Link href="/#contact">
                   <a className="creative_link">Contact</a>
