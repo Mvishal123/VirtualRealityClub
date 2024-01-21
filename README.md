@@ -35,7 +35,7 @@ To get started with the project, follow these steps:
 4.Run the development server
 
 ```bash
-  npm run start
+  npm run dev
 ```
 
 
@@ -79,6 +79,7 @@ For more information, please visit our website.
 
 We would like to thank the following individuals and organizations for their contributions to the project:
 
- - [ Vinayak Singh](https://virtualrealityclub.vercel.app/)
+ - [ Vinayak Singh](https://https://github.com/CodeVinayak)
+ -  [ AdithyaSM31 ](https://github.com/AdithyaSM31)
 
 
