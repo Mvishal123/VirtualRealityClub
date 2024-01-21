@@ -30,11 +30,6 @@ const Header = ({ walletToggle, navigationToggle }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/#fun_facts">
-                  <a className="creative_link">Achivements</a>
-                </Link>
-              </li>
-              <li>
                 <Link href="/#about">
                   <a className="creative_link">About</a>
                 </Link>
