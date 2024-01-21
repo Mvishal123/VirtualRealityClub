@@ -34,14 +34,15 @@ const Header = ({ walletToggle, navigationToggle }) => {
                   <a className="creative_link">About</a>
                 </Link>
               </li>
+              
               <li>
-                <Link href="/#collection">
-                  <a className="creative_link">Team Members</a>
+                <Link href="/#events">
+                  <a className="creative_link">Events</a>
                 </Link>
               </li>
               <li>
-                <Link href="/#roadmap">
-                  <a className="creative_link">Events</a>
+                <Link href="/#collection">
+                  <a className="creative_link">Team Members</a>
                 </Link>
               </li>
               <li>

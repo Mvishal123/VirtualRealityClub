@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { roadMapProps } from "../sliderProps";
 const RoadMapSlider = () => {
   return (
-    <section id="roadmap">
+    <section id="events">
       <div className="container">
         <h3
           className="fn__maintitle big"

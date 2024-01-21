@@ -35,7 +35,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
               </a>
             </li>
             <li>
-              <a className="creative_link" href="#roadmap">
+              <a className="creative_link" href="#events">
                 Events
               </a>
             </li>

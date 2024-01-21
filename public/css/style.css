@@ -5703,9 +5703,13 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	}
 }
 
+#events{
+	padding: 120px 0 50px 0;
+}
 
-
-
+#events .fn__maintitle {
+    margin-bottom: 50px;
+}
 /* Since v3.0 */
 #roadmap{
 	padding: 120px 0 50px 0;
