@@ -63,7 +63,8 @@ export const holdSection = () => {
     if (offset < 2000) {
       metaportal_fn_search.classList.add("hold");
       social.classList.add("hold");
-    } else {
+    } 
+    else {
       social.classList.remove("hold");
       metaportal_fn_search.classList.remove("hold");
     }
