@@ -58,19 +58,22 @@ export const holdSection = () => {
   const social = document.querySelector("#social");
   const metaportal_fn_search = document.querySelector(".metaportal_fn_search");
 
-  window.addEventListener("scroll", () => {
-    let offset = window.scrollY;
-    if (offset < 2000) {
-      metaportal_fn_search.classList.add("hold");
-      social.classList.add("hold");
-    } 
-    else {
-      social.classList.remove("hold");
-      metaportal_fn_search.classList.remove("hold");
-    }
-  });
+  // Check if both elements are found in the document
+  if (social && metaportal_fn_search) {
+    window.addEventListener("scroll", () => {
+      let offset = window.scrollY;
+      if (offset < 2000) {
+        metaportal_fn_search.classList.add("hold");
+        social.classList.add("hold");
+      } else {
+        social.classList.remove("hold");
+        metaportal_fn_search.classList.remove("hold");
+      }
+    });
+  } else {
+    console.error("Elements not found in the document.");
+  }
 };
-
 // scroll to top
 export const scrollTop = () => {
   const body = document.querySelector("body");
