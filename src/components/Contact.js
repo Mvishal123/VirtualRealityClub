@@ -1,3 +1,4 @@
+import Image from 'next/image';
 const Contact = () => {
   return (
     <section id="contact">
@@ -26,12 +27,12 @@ const Contact = () => {
               <div className="item">
                 <h4 className="label">Phone</h4>
                 <h3>
-                  <a href="tel:+91 9630576848">+91 9630576848</a>
+                  <a href="tel:+91 9630576848">+91 9182343449</a>
                 </h3>
                 <h4 className="lable">Email</h4>
                 <h3>
-                  <a href="mailto:Hello@vinayaksingh.com">
-                  Hello@vinayaksingh.com
+                  <a href="mailto:presidentvrvitc@gmail.com">
+                  presidentvrvitc@gmail.com
                   </a>
                 </h3>
               </div>
@@ -39,7 +40,7 @@ const Contact = () => {
             <li>
               <div className="item">
                 <h4 className="label">Office</h4>
-                <h3>D1 Block,Room 723,<br></br>VIT Chennai</h3>
+                <h3>D1 <br></br>VIT Chennai</h3>
               </div>
             </li>
           </ul>
@@ -85,7 +86,7 @@ const Contact = () => {
                   <label className="fn__checkbox">
                     <input type="checkbox" />
                     <span className="fn__checkmark">
-                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
+                      <Image src="/svg/checked.svg" alt="" className="fn__svg" layout="fill" />
                     </span>
                     <p>
                       I’m okay with getting emails and having that activity
