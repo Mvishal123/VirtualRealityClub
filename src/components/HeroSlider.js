@@ -156,7 +156,7 @@ const HeroSlider = () => {
                   <img src="img/1.jpg" alt="" />
                   <a
                     className="popup-youtube metaportal_fn_videobutton"
-                    href="https://www.youtube.com/watch?v=TX9qSaGXFyg"
+                    href="https://www.youtube.com/"
                   >
                     <img src="/svg/play.svg" alt="" className="fn__svg" />
                   </a>
