@@ -53,7 +53,7 @@ const About = () => {
         <div className="fn_cs_mint">
           <div className="left_part">
             <h3 className="fn__maintitle" data-text="Fun-tastic Events in VR Club">
-             Fun-tastic Events in VR Club
+             Fun-tastic Events in AVR Club
             </h3>
             <div className="fn_cs_divider">
               <div className="divider">
