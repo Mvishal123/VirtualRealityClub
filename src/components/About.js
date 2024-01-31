@@ -28,9 +28,9 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-              Hey there, tech enthusiasts and virtual adventurers!<br></br> We are VIT Chennai's VR Club, and we're here to redefine the way you experience technology. 🚀<br></br>We are a dynamic group of students passionate about all things virtual reality. <br></br>Our club is a hub for the latest VR innovations, immersive experiences, and creative tech endeavors. 🎮💡
-              <br></br><br></br>What We Do:<br></br><br></br>🔮 Explore Immersive Realms:<br></br> Dive into mind-bending virtual worlds that blur the line between reality and imagination. Experience breathtaking adventures right from our campus.<br></br>🌐Digitalize Personal Space:<br></br> Discover how VR can transform your personal space with cutting-edge visualization techniques. From gaming to design, we've got you covered.<br></br>🌈 Mixed Reality Magic:<br></br>We're all about creating mixed reality experiences that'll leave you in awe. From augmented reality art installations to VR-powered education, we're pushing boundaries.<br></br>💡 Tech Innovation:<br></br>Stay on the bleeding edge of technology as we explore the latest VR gadgets, software, and trends. We love experimenting and tinkering with new tech toys.<br></br><br></br> Join the VR Revolution:<br></br>Whether you're a VR veteran or just curious about this futuristic tech, we welcome all VIT Chennai students to join our club. Together, we'll venture into uncharted digital territories and redefine what's possible.<br></br>
-              <br></br>Ready to unlock the limitless potential of virtual reality? Join us at VIT Chennai VR Club, where dreams go digital🌐🚀
+              Hey there, tech enthusiasts and virtual adventurers!<br></br> We are VIT Chennai's AVR Club, and we're here to redefine the way you experience technology. 🚀<br></br>We are a dynamic group of students passionate about all things virtual reality. <br></br>Our club is a hub for the latest AVR innovations, immersive experiences, and creative tech endeavors. 🎮💡
+              <br></br><br></br>What We Do:<br></br><br></br>🔮 Explore Immersive Realms:<br></br> Dive into mind-bending virtual worlds that blur the line between reality and imagination. Experience breathtaking adventures right from our campus.<br></br>🌐Digitalize Personal Space:<br></br> Discover how AVR can transform your personal space with cutting-edge visualization techniques. From gaming to design, we've got you covered.<br></br>🌈 Mixed Reality Magic:<br></br>We're all about creating mixed reality experiences that'll leave you in awe. From augmented reality art installations to AVR-powered education, we're pushing boundaries.<br></br>💡 Tech Innovation:<br></br>Stay on the bleeding edge of technology as we explore the latest AVR gadgets, software, and trends. We love experimenting and tinkering with new tech toys.<br></br><br></br> Join the AVR Revolution:<br></br>Whether you're a AVR veteran or just curious about this futuristic tech, we welcome all VIT Chennai students to join our club. Together, we'll venture into uncharted digital territories and redefine what's possible.<br></br>
+              <br></br>Ready to unlock the limitless potential of virtual reality? Join us at VIT Chennai AVR Club, where dreams go digital🌐🚀
               </p>
               <p>
               Let's dive into the future together!
@@ -52,7 +52,7 @@ const About = () => {
         {/* Mint Shortcode */}
         <div className="fn_cs_mint">
           <div className="left_part">
-            <h3 className="fn__maintitle" data-text="Fun-tastic Events in VR Club">
+            <h3 className="fn__maintitle" data-text="Fun-tastic Events in AVR Club">
              Fun-tastic Events in AVR Club
             </h3>
             <div className="fn_cs_divider">
@@ -63,13 +63,13 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                Get ready for a whirlwind of excitement with our Fun-tastic Events at VIT Chennai VR Club! 🎉
+                Get ready for a whirlwind of excitement with our Fun-tastic Events at VIT Chennai AVR Club! 🎉
               </p>
               <p>
-              Get ready for a blast! 🚀 Our Fun-tastic Events at VIT Chennai VR Club are all about mixing learning with a whole lot of fun. From epic gaming showdowns to mind-bending art exhibits, we've got something for everyone. Join us and let's make tech awesome together! 🎉🎮🎨
+              Get ready for a blast! 🚀 Our Fun-tastic Events at VIT Chennai AVR Club are all about mixing learning with a whole lot of fun. From epic gaming showdowns to mind-bending art exhibits, we've got something for everyone. Join us and let's make tech awesome together! 🎉🎮🎨
               </p>
               <p>
-              Join the party at VIT Chennai VR Club's Fun-tastic Events! 🥳🕹️ We're cooking up a storm of fun and excitement with gaming competitions, VR adventures, and mind-blowing tech showcases. Don't miss out on the most electrifying events on campus! Stay tuned for a wild ride with us. 🎉🎮🚀
+              Join the party at VIT Chennai AVR Club's Fun-tastic Events! 🥳🕹️ We're cooking up a storm of fun and excitement with gaming competitions, AVR adventures, and mind-blowing tech showcases. Don't miss out on the most electrifying events on campus! Stay tuned for a wild ride with us. 🎉🎮🚀
               </p>
             </div>
             <Link href="/nft-single">
@@ -94,7 +94,7 @@ const About = () => {
                   <div className="item">
                     <div className="item_in">
                       <h3 className="fn__gradient_title">Learn</h3>
-                      <p>Unleash the Coolest VR Tech in Town!</p>
+                      <p>Unleash the Coolest AVR Tech in Town!</p>
                     </div>
                   </div>
                 </li>
