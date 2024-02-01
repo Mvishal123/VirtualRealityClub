@@ -91,7 +91,7 @@ const RoadMapSlider = () => {
                       <p className="date">October 06, 2023</p>
                       <h3 className="title">Gamers Nexus</h3>
                       <p className="desc">
-                      Gear up and immerse yourself in high-octane VR gaming with your own VR headset.
+                      Gear up and immerse yourself in high-octane AVR gaming with your own AVR headset.
                       </p>
                     </div>
                   </div>

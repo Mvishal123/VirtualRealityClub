@@ -15,7 +15,7 @@ const Contact = () => {
             <li>
               <div className="item">
                 <p>
-                   Get in Touch with VIT Chennai VR Club
+                   Get in Touch with VIT Chennai AVR Club
                 </p>
                 <p>
                 We'd love to hear from you! If you have any questions, suggestions, or just want to chat about all things virtual reality and tech, feel free to reach out to us. Here's how you can get in touch.
