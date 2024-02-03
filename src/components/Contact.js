@@ -1,4 +1,8 @@
 import Image from 'next/image';
+function gotoLink(link){
+  location.href= link.value;
+}
+
 const Contact = () => {
   return (
     <section id="contact">
@@ -25,24 +29,37 @@ const Contact = () => {
             </li>
             <li>
               <div className="item">
-                <h4 className="label">Phone</h4>
-                <h3>
-                  <a href="tel:+91 9630576848">+91 9182343449</a>
-                </h3>
+                
                 <h4 className="lable">Email</h4>
                 <h3>
-                  <a href="mailto:presidentvrvitc@gmail.com">
+                  <a id="em"href="mailto:presidentvrvitc@gmail.com">
                   presidentvrvitc@gmail.com
                   </a>
                 </h3>
+                
               </div>
             </li>
             <li>
               <div className="item">
-                <h4 className="label">Office</h4>
-                <h3>D1 <br></br>VIT Chennai</h3>
+                
+                <h4 className="lable">Social</h4>
+                <h3>
+                  <a href="https://www.instagram.com/avr_vitc" target="_blank" rel="noreferrer">
+                  <Image src="/img/instagram.png" alt="Instagram" width={50} height={50} /></a>
+                </h3>
+                <h3>
+                  <a href="https://twitter.com/ChennaiVit" target="_blank" rel="noreferrer">
+                  <Image src="/img/twitter.png" alt="Twitter" width={50} height={50} /></a>  
+                </h3>
+                <h3>
+                  <a href="https://in.linkedin.com/in/vitchennai" target="_blank" rel="noreferrer">
+                  <Image src="/img/linkedin.png" alt="LinkedIn" width={50} height={50} /></a>     
+                </h3>
+                
+                
               </div>
             </li>
+            
           </ul>
         </div>
         <div className="fn_cs_contact_form">

@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer">
           <div className="left_part">
             <p>
-              Copyright 2024 - VR CLUB VIT Chennai
+              Copyright 2024 - AVR CLUB VIT Chennai
             </p>
           </div>  
         </div>

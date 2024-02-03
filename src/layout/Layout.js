@@ -22,7 +22,7 @@ const Layout = ({ children, pageTitle }) => {
   return (
     <Fragment>
       <Head>
-        <title>VR CLUB VIT Chennai | {pageTitle}</title>
+        <title>AVR CLUB VIT Chennai | {pageTitle}</title>
       </Head>
       <ImageView />
       <VideoPopup />

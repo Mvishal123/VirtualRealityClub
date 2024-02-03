@@ -184,7 +184,7 @@ html{
 
 body{
 	font-family: var(--bff);
-	font-size: 18px;
+	font-size: 13px;
 	letter-spacing: 0;
 	line-height: 1.44;
 	font-weight: 400;
@@ -196,6 +196,10 @@ body{
 	background: -webkit-linear-gradient(90deg, rgba(27,18,29,1) 0%, rgba(18,15,47,1) 50%, rgba(27,18,29,1) 100%);
 	background: linear-gradient(90deg, rgba(27,18,29,1) 0%, rgba(18,15,47,1) 50%, rgba(27,18,29,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b121d",endColorstr="#1b121d",GradientType=1);
+
+}
+#em{
+	font-size: 25px;
 }
 body,
 html{
@@ -296,11 +300,11 @@ input[type="text"]:focus{
 }
 /*------------------------------------------------------------------*/
 /*	02) Container
-/*------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
 .container{
 	width: 100%;
 	max-width: 1800px;
-	padding: 0 100px;
+	padding: 50px 100px;
 	margin: 0 auto;
 }
 .container.small{
