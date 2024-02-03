@@ -125,12 +125,20 @@ const HeroSlider = () => {
       <div className="container">
         <h3
           className="fn__maintitle big"
+<<<<<<< HEAD
           data-text="Welcome to AUGMENTED AND VIRTUAL REALITY CLUB, VIT Chennai
          "
+=======
+          data-text="Welcome to AVR CLUB, VIT Chennai"
+>>>>>>> 89b57c9f12177c639620f4f4bfe6e1003985228b
           data-align="center"
         
         >
+<<<<<<< HEAD
           Welcome to AUGMENTED AND VIRTUAL REALITY CLUB, VIT Chennai
+=======
+          Welcome to AVR CLUB, VIT Chennai
+>>>>>>> 89b57c9f12177c639620f4f4bfe6e1003985228b
         </h3>
         {/* Slider */}
         <div className="fn_cs_slider" data-responsive="on">
@@ -222,7 +230,7 @@ const HeroSlider = () => {
         {/* Description */}
         <div className="fn_cs_desc">
           <p>
-          VR Club is lit! It's like a virtual reality hangout where we dive into epic digital realms. Get ready to level up your personal space with some mind-blowing visuals. We're all about creating a dope mixed reality virtual world. 🚀✨
+          AVR Club is lit! It's like a virtual reality hangout where we dive into epic digital realms. Get ready to level up your personal space with some mind-blowing visuals. We're all about creating a dope mixed reality virtual world. 🚀✨
           </p>
           <a
             href="https://virtualrealityclub.vercel.app/"
