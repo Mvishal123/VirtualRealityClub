@@ -25,24 +25,17 @@ const Contact = () => {
             </li>
             <li>
               <div className="item">
-                <h4 className="label">Phone</h4>
-                <h3>
-                  <a href="tel:+91 9630576848">+91 9182343449</a>
-                </h3>
+                
                 <h4 className="lable">Email</h4>
                 <h3>
-                  <a href="mailto:presidentvrvitc@gmail.com">
+                  <a id="em"href="mailto:presidentvrvitc@gmail.com">
                   presidentvrvitc@gmail.com
                   </a>
                 </h3>
+                
               </div>
             </li>
-            <li>
-              <div className="item">
-                <h4 className="label">Office</h4>
-                <h3>D1 <br></br>VIT Chennai</h3>
-              </div>
-            </li>
+            
           </ul>
         </div>
         <div className="fn_cs_contact_form">
