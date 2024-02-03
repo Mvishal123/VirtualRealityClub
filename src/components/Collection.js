@@ -90,7 +90,7 @@ const Collection = () => {
         </div>
         <div className="fn_cs_desc">
           <p>
-          Our team members at VIT VR Club are a fusion of tech wizards, creative minds, and passionate VR enthusiasts, all united to redefine the virtual experience." 🌟🔮🚀
+          Our team members at VIT AVR Club are a fusion of tech wizards, creative minds, and passionate VR enthusiasts, all united to redefine the virtual experience." 🌟🔮🚀
           </p>
           {/* <Link href="/collection"> */}
           <Link href="/">
