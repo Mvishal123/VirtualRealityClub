@@ -304,7 +304,7 @@ input[type="text"]:focus{
 .container{
 	width: 100%;
 	max-width: 1800px;
-	padding: 70px 100px;
+	padding: 50px 100px;
 	margin: 0 auto;
 }
 .container.small{

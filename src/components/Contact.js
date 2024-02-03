@@ -44,24 +44,18 @@ const Contact = () => {
                 
                 <h4 className="lable">Social</h4>
                 <h3>
-                  <img src="/img/instagram.png"></img>
-
-                  <a id="em"href="https://www.instagram.com/avr_vitc">
-                  Instagram
-                   </a>
+                  <a href="https://www.instagram.com/avr_vitc" target="_blank">
+                  <img src="/img/instagram.png" alt="Instagram"/></a></h3>
+                <h3>  
+                  <a href="https://twitter.com/ChennaiVit" target="_blank">
+                  <img src="/img/twitter.png" alt="Twitter"/></a>
                 </h3>
                 <h3>
-                  <img src="/img/twitter.png"></img>
-                  <a id="em"href="https://www.x.com/avr_vitc">
-                   X.com
-                   </a>
+    
+                  <a href="https://in.linkedin.com/in/vitchennai" target="_blank">
+                  <img src="/img/linkedin.png" alt="LinkedIn"/></a>  
                 </h3>
-                <h3>
-                  <img src="/img/linkedin.png"></img>
-                  <a id="em"href="https://www.linkedin.com/avr_vitc">
-                   LinkedIn
-                   </a>
-                </h3>
+                
                 
               </div>
             </li>
