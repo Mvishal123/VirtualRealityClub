@@ -45,15 +45,15 @@ const Contact = () => {
                 <h4 className="lable">Social</h4>
                 <h3>
                   <a href="https://www.instagram.com/avr_vitc" target="_blank">
-                  <img src="/img/instagram.png" alt="Instagram"/></a></h3>
-                <h3>  
-                  <a href="https://twitter.com/ChennaiVit" target="_blank">
-                  <img src="/img/twitter.png" alt="Twitter"/></a>
+                  <Image src="/img/instagram.png" alt="Instagram" width={50} height={50} /></a>
                 </h3>
                 <h3>
-    
+                  <a href="https://twitter.com/ChennaiVit" target="_blank">
+                  <Image src="/img/twitter.png" alt="Twitter" width={50} height={50} /></a>  
+                </h3>
+                <h3>
                   <a href="https://in.linkedin.com/in/vitchennai" target="_blank">
-                  <img src="/img/linkedin.png" alt="LinkedIn"/></a>  
+                  <Image src="/img/linkedin.png" alt="LinkedIn" width={50} height={50} /></a>     
                 </h3>
                 
                 
