@@ -1,4 +1,8 @@
 import Image from 'next/image';
+function gotoLink(link){
+  location.href= link.value;
+}
+
 const Contact = () => {
   return (
     <section id="contact">
@@ -31,6 +35,32 @@ const Contact = () => {
                   <a id="em"href="mailto:presidentvrvitc@gmail.com">
                   presidentvrvitc@gmail.com
                   </a>
+                </h3>
+                
+              </div>
+            </li>
+            <li>
+              <div className="item">
+                
+                <h4 className="lable">Social</h4>
+                <h3>
+                  <img src="/img/instagram.png"></img>
+
+                  <a id="em"href="https://www.instagram.com/avr_vitc">
+                  Instagram
+                   </a>
+                </h3>
+                <h3>
+                  <img src="/img/twitter.png"></img>
+                  <a id="em"href="https://www.x.com/avr_vitc">
+                   X.com
+                   </a>
+                </h3>
+                <h3>
+                  <img src="/img/linkedin.png"></img>
+                  <a id="em"href="https://www.linkedin.com/avr_vitc">
+                   LinkedIn
+                   </a>
                 </h3>
                 
               </div>
