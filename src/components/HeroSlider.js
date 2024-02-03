@@ -125,20 +125,11 @@ const HeroSlider = () => {
       <div className="container">
         <h3
           className="fn__maintitle big"
-<<<<<<< HEAD
-          data-text="Welcome to AUGMENTED AND VIRTUAL REALITY CLUB, VIT Chennai
-         "
-=======
           data-text="Welcome to AVR CLUB, VIT Chennai"
->>>>>>> 89b57c9f12177c639620f4f4bfe6e1003985228b
           data-align="center"
         
         >
-<<<<<<< HEAD
-          Welcome to AUGMENTED AND VIRTUAL REALITY CLUB, VIT Chennai
-=======
           Welcome to AVR CLUB, VIT Chennai
->>>>>>> 89b57c9f12177c639620f4f4bfe6e1003985228b
         </h3>
         {/* Slider */}
         <div className="fn_cs_slider" data-responsive="on">
