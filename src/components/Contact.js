@@ -40,18 +40,16 @@ const Contact = () => {
               </div>
             </li>
             <li>
-              <div className="item">
+              <div className="items">
                 
-                <h4 className="lable">Social</h4>
+                <h4 className="socialse">Social</h4>
                 <h3>
                   <a href="https://www.instagram.com/avr_vitc" target="_blank" rel="noreferrer">
                   <Image src="/img/instagram.png" alt="Instagram" width={50} height={50} /></a>
-                </h3>
-                <h3>
+               
                   <a href="https://twitter.com/ChennaiVit" target="_blank" rel="noreferrer">
                   <Image src="/img/twitter.png" alt="Twitter" width={50} height={50} /></a>  
-                </h3>
-                <h3>
+                
                   <a href="https://in.linkedin.com/in/vitchennai" target="_blank" rel="noreferrer">
                   <Image src="/img/linkedin.png" alt="LinkedIn" width={50} height={50} /></a>     
                 </h3>
