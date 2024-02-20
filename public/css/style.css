@@ -5462,6 +5462,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	}
 	.fn_cs_about .right_in{
 		max-width: 100%;
+		margin-bottom: 10px;
 	}
 	.fn_cs_news .news_part{
 		-webkit-flex-direction: column;
