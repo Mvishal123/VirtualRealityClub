@@ -1876,9 +1876,10 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	margin-left: -40px;
 	flex-wrap: wrap;
 	padding-right: 40px;
+	justify-content: center;
 }
 .fn_cs_collection .collection_top .item{
-	width: 31.2%;
+	width: 31%;
 }
 .fn_cs_collection .collection_top .item:nth-child(2),
 .fn_cs_collection .collection_top .item:nth-child(4){
@@ -1895,6 +1896,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	margin-left: -40px;
 	flex-wrap: wrap;
 	padding-left: 40px;
+	justify-content: center;
 }
 .fn_cs_collection .collection_bottom .item{
 	width: 31.2%;
