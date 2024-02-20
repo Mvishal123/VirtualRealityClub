@@ -1600,7 +1600,7 @@ a.full_link{
 }
 .fn_cs_steps .item_in{
 	height: 100%;
-	padding: 57px 50px 54px;
+	padding: 25px 25px 25px;
 	border-radius: 10px;
     background-color: rgba(255,255,255,.03);
 }
