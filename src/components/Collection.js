@@ -49,7 +49,7 @@ const Collection = () => {
         </h3>
         <div className="fn_cs_collection">
           <div className="collection_top">
-          <div className="item">
+            <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
@@ -59,7 +59,7 @@ const Collection = () => {
                   <img src="/img/Faculty.png" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="/img/Faculty.png"/>
+              <input type="hidden" defaultValue="/img/Faculty.png" />
             </div>
             <div className="item">
               <div className="item_in">
@@ -95,13 +95,13 @@ const Collection = () => {
                   <img src="/img/vicepresident.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="/img/vicepresident.jpg" />
+              <input type="hidden" defaultValue="/img/vicepresident.jpg"/>
             </div>
           </div>
         </div>
         <div className="fn_cs_desc">
           <p>
-          Our team members at VIT AVR Club are a fusion of tech wizards, creative minds, and passionate VR enthusiasts, all united to redefine the virtual experience." 🌟🔮🚀
+            Our team members at VIT AVR Club are a fusion of tech wizards, creative minds, and passionate VR enthusiasts, all united to redefine the virtual experience." 🌟🔮🚀
           </p>
           {/* <Link href="/collection"> */}
           <Link href="/">
