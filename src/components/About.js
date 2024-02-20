@@ -6,13 +6,13 @@ const About = () => {
       <div className="fn_cs_about">
         <div className="left_part">
           <div className="img">
-            <div className="img_in" data-bg-img="/img/4.jpg">
-              <img src="/img/1x1.jpg" alt="" />
+            <div className="img_in" data-bg-img="">
+              <img src="" alt="" />
             </div>
           </div>
           <div className="bg_overlay">
             <div className="bg_color" />
-            <div className="bg_image" data-bg-img="/img/5.jpg" />
+            <div className="bg_image" data-bg-img="" />
           </div>
         </div>
         <div className="right_part">
@@ -28,13 +28,9 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-              Hey there, tech enthusiasts and virtual adventurers!<br></br> We are VIT Chennai's AVR Club, and we're here to redefine the way you experience technology. 🚀<br></br>We are a dynamic group of students passionate about all things virtual reality. <br></br>Our club is a hub for the latest AVR innovations, immersive experiences, and creative tech endeavors. 🎮💡
-              <br></br><br></br>What We Do:<br></br><br></br>🔮 Explore Immersive Realms:<br></br> Dive into mind-bending virtual worlds that blur the line between reality and imagination. Experience breathtaking adventures right from our campus.<br></br>🌐Digitalize Personal Space:<br></br> Discover how AVR can transform your personal space with cutting-edge visualization techniques. From gaming to design, we've got you covered.<br></br>🌈 Mixed Reality Magic:<br></br>We're all about creating mixed reality experiences that'll leave you in awe. From augmented reality art installations to AVR-powered education, we're pushing boundaries.<br></br>💡 Tech Innovation:<br></br>Stay on the bleeding edge of technology as we explore the latest AVR gadgets, software, and trends. We love experimenting and tinkering with new tech toys.<br></br><br></br> Join the AVR Revolution:<br></br>Whether you're a AVR veteran or just curious about this futuristic tech, we welcome all VIT Chennai students to join our club. Together, we'll venture into uncharted digital territories and redefine what's possible.<br></br>
-              <br></br>Ready to unlock the limitless potential of virtual reality? Join us at VIT Chennai AVR Club, where dreams go digital🌐🚀
+              🔮 Explore Immersive Realms:<br></br> Dive into mind-bending virtual worlds that blur the line between reality and imagination. Experience breathtaking adventures right from our campus.<br></br>🌐Digitalize Personal Space:<br></br> Discover how AVR can transform your personal space with cutting-edge visualization techniques. From gaming to design, we've got you covered.<br></br>🌈 Mixed Reality Magic:<br></br>We're all about creating mixed reality experiences that'll leave you in awe. From augmented reality art installations to AVR-powered education, we're pushing boundaries.<br></br>💡 Tech Innovation:<br></br>Stay on the bleeding edge of technology as we explore the latest AVR gadgets, software, and trends. We love experimenting and tinkering with new tech toys.<br></br><br></br> Join the AVR Club
               </p>
-              <p>
-              Let's dive into the future together!
-              </p>
+              
             </div>
             <a
               href="/"
