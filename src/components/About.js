@@ -68,7 +68,6 @@ const About = () => {
               <p>
               Get ready for a blast! 🚀 Our Fun-tastic Events at VIT Chennai AVR Club are all about mixing learning with a whole lot of fun. From epic gaming showdowns to mind-bending art exhibits, we've got something for everyone. Join us and let's make tech awesome together! 🎉🎮🎨
               </p>
-             
             </div>
             <Link href="/nft-single">
               <a className="metaportal_fn_button">

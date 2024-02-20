@@ -85,9 +85,18 @@ const Collection = () => {
               </div>
               <input type="hidden" defaultValue="/img/2.jpg" />
             </div>
-
-            
-
+            <div className="item">
+              <div className="item_in">
+                <div className="img">
+                  <div
+                    className="abs_img"
+                    data-bg-img="/img/vicepresident.jpg"
+                  />
+                  <img src="/img/vicepresident.jpg" alt="" />
+                </div>
+              </div>
+              <input type="hidden" defaultValue="/img/vicepresident.jpg" />
+            </div>
           </div>
         </div>
         <div className="fn_cs_desc">
