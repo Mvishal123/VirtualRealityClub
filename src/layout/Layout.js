@@ -11,7 +11,6 @@ import PreLoader from "./PreLoader";
 import ScrollTop from "./ScrollTop";
 import SearchButton from "./SearchButton";
 import Social from "./Social";
-import WalletPopUp from "./WalletPopUp";
 const Layout = ({ children, pageTitle }) => {
   useEffect(() => {
     holdSection();
@@ -27,13 +26,9 @@ const Layout = ({ children, pageTitle }) => {
       <ImageView />
       <VideoPopup />
       <PreLoader />
-      {/* !Preloader */}
-      {/* Left Navigation */}
       <Navigation />
 
-      {/* Wallet Popup */}
-      <WalletPopUp />
-      {/* !Wallet Popup */}
+
       {/* Main */}
       <div className="metaportal_fn_main">
         {/* Mobile Navigation */}
