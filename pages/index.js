@@ -11,6 +11,7 @@ const Index = () => {
       {/* Home Section */}
       <HeroSlider />
       {/* !Home Section */}
+      
 
       {/* About Section */}
       <About />
@@ -29,6 +30,7 @@ const Index = () => {
       {/* Section Divider */}
 
       {/* Section Divider */}
+      
       <SectionDivider />
       {/* !Section Divider */}
       {/* Section */}

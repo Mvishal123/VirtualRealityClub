@@ -401,10 +401,12 @@ a.full_link{
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
+	
 }
 .metaportal_fn_mobnav .social_trigger .trigger{
 	margin-right: 20px;
 }
+
 .metaportal_fn_mobnav .mob_mid,
 .metaportal_fn_mobnav .mob_top{
 	display: -webkit-flex;
@@ -427,10 +429,11 @@ a.full_link{
 	display: none;
 	background: rgb(27,18,29);
 	padding: 21px 20px;
+	
 	overflow: hidden;
 }
 .metaportal_fn_mobnav .mob_bot ul{
-	margin: 0;
+	margin: 15%;
 	list-style-type: none;
 }
 .metaportal_fn_mobnav .mob_bot li{

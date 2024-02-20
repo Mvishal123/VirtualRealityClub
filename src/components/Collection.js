@@ -104,7 +104,7 @@ const Collection = () => {
             Our team members at VIT AVR Club are a fusion of tech wizards, creative minds, and passionate VR enthusiasts, all united to redefine the virtual experience." 🌟🔮🚀
           </p>
           {/* <Link href="/collection"> */}
-          <Link href="/">
+          <Link href="/#home">
 
             <a className="metaportal_fn_button">
               <span>View All Team Members</span>
@@ -112,7 +112,9 @@ const Collection = () => {
           </Link>
         </div>
       </div>
+      
     </section>
+    
   );
 };
 export default Collection;
