@@ -134,7 +134,7 @@ const HeroSlider = () => {
         {/* Slider */}
         <div className="fn_cs_slider" data-responsive="on">
           <div className="slider_top">
-            <img src="img/2.jpg" alt="" />
+            <img src="img/logo.png" alt="" />
             <ul>
               <li className="prev" data-index={1}>
               <div className="item has_video">
@@ -153,49 +153,49 @@ const HeroSlider = () => {
               </li>
               <li className="active" data-index={2}>
                 <div className="item">
-                  <img src="img/3.png" alt="" />
+                  <img src="img/logo.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="img/3.png" />
+                    <div className="img" data-bg-img="img/logo.png" />
                   </div>
                 </div>
               </li>
               <li className="next" data-index={3}>
               <div className="item">
-                  <img src="img/1.jpg" alt="" />
+                  <img src="img/logo.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="img/1.jpg" />
+                    <div className="img" data-bg-img="img/logo.png" />
                   </div>
                 </div>
               </li>
               <li className="next2" data-index={4}>
                 <div className="item">
-                  <img src="img/2.jpg" alt="" />
+                  <img src="img/logo.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="img/2.jpg" />
+                    <div className="img" data-bg-img="img/logo.png" />
                   </div>
                 </div>
               </li>
               <li data-index={5}>
                 <div className="item">
-                  <img src="img/vicepresident.jpg" alt="" />
+                  <img src="img/logo.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="img/vicepresident.jpg" />
+                    <div className="img" data-bg-img="img/logo.png" />
                   </div>
                 </div>
               </li>
               <li data-index={6}>
                 <div className="item">
-                  <img src="img/head.jpg" alt="" />
+                  <img src="img/logo.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="img/head.jpg" />
+                    <div className="img" data-bg-img="img/logo.png" />
                   </div>
                 </div>
               </li>
               <li className="prev2" data-index={7}>
                 <div className="item">
-                  <img src="img/1.jpg" alt="" />
+                  <img src="img/logo.png" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="img/1.jpg" />
+                    <div className="img" data-bg-img="img/logo.png" />
                   </div>
                 </div>
               </li>

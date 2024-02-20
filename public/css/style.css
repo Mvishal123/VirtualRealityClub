@@ -406,40 +406,15 @@ a.full_link{
 .metaportal_fn_mobnav .social_trigger .trigger{
 	margin-right: 20px;
 }
-.metaportal_fn_mobnav .mob_mid{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	width:100%;
-	height: 8%;
-	padding: 2px;
-	margin-top: 0;
-	overflow: hidden;
-	background: rgb(27,18,29);
-    background: -moz-linear-gradient(90deg, rgba(27,18,29,1) 0%, rgba(18,15,47,1) 50%, rgba(27,18,29,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(27,18,29,1) 0%, rgba(18,15,47,1) 50%, rgba(27,18,29,1) 100%);
-    background: linear-gradient(90deg, rgba(27,18,29,1) 0%, rgba(18,15,47,1) 50%, rgba(27,18,29,1) 100%);
-	border-bottom: 1px solid rgba(255,255,255,.08);
-	-ms-align-items: center;
-	align-items: center;
-	justify-content: space-between;
-	margin-top: 0;
-	position: fixed;
-}
+
+.metaportal_fn_mobnav .mob_mid,
 .metaportal_fn_mobnav .mob_top{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	width:100%;
-	height: 10%;
 	padding: 20px;
-	position: fixed;
-
-	
 	overflow: hidden;
 	background: rgb(27,18,29);
     background: -moz-linear-gradient(90deg, rgba(27,18,29,1) 0%, rgba(18,15,47,1) 50%, rgba(27,18,29,1) 100%);
