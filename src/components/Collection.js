@@ -42,24 +42,24 @@ const Collection = () => {
       <div className="container">
         <h3
           className="fn__maintitle big"
-          data-text="Members"
+          data-text="Board Members"
           data-align="center"
         >
-          Members
+          Board Members
         </h3>
         <div className="fn_cs_collection">
           <div className="collection_top">
-            <div className="item">
+          <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/2.jpg"
+                    data-bg-img="/img/Faculty.png"
                   />
-                  <img src="/img/2.jpg" alt="" />
+                  <img src="/img/Faculty.png" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="/img/2.jpg" />
+              <input type="hidden" defaultValue="/img/Faculty.png"/>
             </div>
             <div className="item">
               <div className="item_in">
@@ -73,19 +73,21 @@ const Collection = () => {
               </div>
               <input type="hidden" defaultValue="/img/logo.png" />
             </div>
-            
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/3.png"
+                    data-bg-img="/img/2.jpg"
                   />
-                  <img src="/img/3.png" alt="" />
+                  <img src="/img/2.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="/img/3.png"/>
+              <input type="hidden" defaultValue="/img/2.jpg" />
             </div>
+
+            
+
           </div>
         </div>
         <div className="fn_cs_desc">
