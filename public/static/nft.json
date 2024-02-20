@@ -21,7 +21,7 @@
   }
   ,
   {
-    "id": 2,
+    "id": 3,
     "image": "/img/vicepresident.jpg",
     "title": "Pughya Raag",
     "price": "1.46",
@@ -32,7 +32,7 @@
   }
   ,
   {
-    "id": 2,
+    "id": 4,
     "image": "/img/2.jpg",
     "title": "Adithya Vardhan",
     "price": "1.46",
@@ -43,7 +43,7 @@
   }
   ,
   {
-    "id": 2,
+    "id": 5,
     "image": "/img/2.jpg",
     "title": "Adithya Vardhan",
     "price": "1.46",
@@ -54,7 +54,7 @@
   }
   ,
   {
-    "id": 2,
+    "id": 6,
     "image": "/img/2.jpg",
     "title": "Adithya Vardhan",
     "price": "1.46",
