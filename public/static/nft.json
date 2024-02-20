@@ -22,8 +22,8 @@
   ,
   {
     "id": 2,
-    "image": "/img/2.jpg",
-    "title": "Adithya Vardhan",
+    "image": "/img/vicepresident.jpg",
+    "title": "Pughya Raag",
     "price": "1.46",
     "quantity": 2,
     "type": "spirit",
@@ -63,5 +63,5 @@
     "special": "fox fire",
     "clothing": "light kimono"
   }
-  
+
 ]
