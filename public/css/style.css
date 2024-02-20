@@ -2967,7 +2967,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 
 /* Page Title */
 .metaportal_fn_pagetitle{
-	padding: 239px 0 72px;
+	padding: 75px 0 25px;
 	text-align: center;
 }
 .metaportal_fn_pagetitle h3{
@@ -3678,6 +3678,9 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	margin-bottom: 40px;
 }
 .nft__item{
+	img{
+		max-width: 50%;
+	}
 	width: 100%;
 	padding: 20px;
     border-radius: 10px;
@@ -3714,7 +3717,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 .nft__item .img_holder{
 	border-radius: 10px;
 	overflow: hidden;
-	margin-bottom: 22px;
+	margin-bottom: 0px;
 }
 .metaportal_fn_similar{
 	margin-bottom: 110px;
@@ -4873,7 +4876,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 
 /* Collection Page */
 .metaportal_fn_collectionpage{
-	padding: 150px 0;
+	padding: 25px 0;
 }
 .metaportal_fn_result_list{
 	overflow: hidden;
