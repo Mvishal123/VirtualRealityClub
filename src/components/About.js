@@ -27,8 +27,7 @@ const About = () => {
               </div>
             </div>
             <div className="desc">
-              <p>
-              🔮 Explore Immersive Realms:<br></br> Dive into mind-bending virtual worlds that blur the line between reality and imagination. Experience breathtaking adventures right from our campus.<br></br>🌐Digitalize Personal Space:<br></br> Discover how AVR can transform your personal space with cutting-edge visualization techniques. From gaming to design, we've got you covered.<br></br>🌈 Mixed Reality Magic:<br></br>We're all about creating mixed reality experiences that'll leave you in awe. From augmented reality art installations to AVR-powered education, we're pushing boundaries.<br></br>💡 Tech Innovation:<br></br>Stay on the bleeding edge of technology as we explore the latest AVR gadgets, software, and trends. We love experimenting and tinkering with new tech toys.<br></br><br></br> Join the AVR Club
+              <p>Welcome to the AVR Club at VIT Chennai! 🚀🕶️ <br></br><br></br>Immerse yourself in the cutting-edge realms of augmented and virtual reality. 🌐✨<br></br>The AVR Club isn't just a club; it's a portal to an alternate reality of limitless innovation! 🌈🔍<br></br><br></br> We're a dynamic team of tech enthusiasts and visionaries ready to explore boundless possibilities. 💻🌌<br></br><br></br>Join us at the AVR Club, where reality and imagination collide! 👓🌟<br></br>The future is virtual, and the adventure begins here! 🌐🚀
               </p>
               
             </div>
