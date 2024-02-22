@@ -428,12 +428,12 @@ a.full_link{
 .metaportal_fn_mobnav .mob_bot{
 	display: none;
 	background: rgb(27,18,29);
-	padding: 21px 20px;
+	/* padding: 21px 20px; */
 	
 	overflow: hidden;
 }
 .metaportal_fn_mobnav .mob_bot ul{
-	margin: 15%;
+	/* margin: 15%; */
 	list-style-type: none;
 }
 .metaportal_fn_mobnav .mob_bot li{
@@ -5388,7 +5388,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	.metaportal_fn_protected,
 	.metaportal_fn_404,
 	.metaportal_fn_coming_soon{
-		padding: 0px 0;
+		padding: 250px 0;
 	}
 	.metaportal_fn_404 h3{
 		font-size: 12vw;
