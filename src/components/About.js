@@ -18,7 +18,7 @@ const About = () => {
         <div className="right_part">
           <div className="right_in">
             <h3 className="fn__maintitle" data-text="About Us">
-            About Us
+              About Us
             </h3>
             <div className="fn_cs_divider">
               <div className="divider">
@@ -27,9 +27,11 @@ const About = () => {
               </div>
             </div>
             <div className="desc">
-              <p>Welcome to the AVR Club at VIT Chennai! 🚀🕶️ <br></br><br></br>Immerse yourself in the cutting-edge realms of augmented and virtual reality. 🌐✨<br></br>The AVR Club isn't just a club; it's a portal to an alternate reality of limitless innovation! 🌈🔍<br></br><br></br> We're a dynamic team of tech enthusiasts and visionaries ready to explore boundless possibilities. 💻🌌<br></br><br></br>Join us at the AVR Club, where reality and imagination collide! 👓🌟<br></br>The future is virtual, and the adventure begins here! 🌐🚀
+              <p>Welcome to the AVR Club at VIT Chennai! 🚀🕶️ <br></br><br></br>Immerse yourself in the realms of augmented and virtual reality, where reality and imagination collide.
+                🌐✨<br></br><br></br>The AVR Club is not just a club; it’s a portal to an alternate reality where innovation knows no bounds!  🌈🔍<br></br><br></br>We are a dynamic team of tech enthusiasts, visionaries and we’re here to explore the limitless possibilities this world has to offer.
+                💻🌌<br></br><br></br>Join us at the AVR Club and be ready to witness reality through a new lens. 👓🌟<br></br>The future is virtual, and the adventure begins here!🌐🚀
               </p>
-              
+
             </div>
             <a
               href="/"
@@ -48,7 +50,7 @@ const About = () => {
         <div className="fn_cs_mint">
           <div className="left_part">
             <h3 className="fn__maintitle" data-text="Fun-tastic Events in AVR Club">
-             Fun-tastic Events in AVR Club
+              Fun-tastic Events in AVR Club
             </h3>
             <div className="fn_cs_divider">
               <div className="divider">
@@ -61,7 +63,7 @@ const About = () => {
                 Get ready for a whirlwind of excitement with our Fun-tastic Events at VIT Chennai AVR Club! 🎉
               </p>
               <p>
-              Get ready for a blast! 🚀 Our Fun-tastic Events at VIT Chennai AVR Club are all about mixing learning with a whole lot of fun. From epic gaming showdowns to mind-bending art exhibits, we've got something for everyone. Join us and let's make tech awesome together! 🎉🎮🎨
+                Get ready for a blast! 🚀 Our Fun-tastic Events at VIT Chennai AVR Club are all about mixing learning with a whole lot of fun. From epic gaming showdowns to mind-bending art exhibits, we've got something for everyone. Join us and let's make tech awesome together! 🎉🎮🎨
               </p>
             </div>
             <Link href="/nft-single">
@@ -135,7 +137,7 @@ export const About2 = () => (
       <div className="fn_cs_shortabout">
         <div className="about_left">
           <h3 className="fn__maintitle" data-text="Join Now">
-          Join Now
+            Join Now
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
