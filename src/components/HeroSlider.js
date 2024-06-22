@@ -1,4 +1,8 @@
 import { useEffect } from "react";
+import { FaInstagram } from "react-icons/fa6";
+import { FaDiscord } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const HeroSlider = () => {
   // Hero slider
@@ -10,33 +14,33 @@ const HeroSlider = () => {
         activeIndex = 2,
         speed = 6000;
 
-      let myInterval = setInterval(function () {
-        activeIndex++;
-        activeIndex = sliderDo(sliderTop, sliderBottom, activeIndex);
-      }, speed);
+      // let myInterval = setInterval(function () {
+      //   activeIndex++;
+      //   activeIndex = sliderDo(sliderTop, sliderBottom, activeIndex);
+      // }, speed);
       const prev = document.querySelector(".slider_nav .prev"),
         next = document.querySelector(".slider_nav .next"),
         li = element.getElementsByTagName("li");
       prev.addEventListener("click", function (e) {
         e.preventDefault();
-        clearInterval(myInterval);
+        // clearInterval(myInterval);
         activeIndex--;
         activeIndex = sliderDo(sliderTop, sliderBottom, activeIndex);
-        myInterval = setInterval(function () {
-          activeIndex++;
-          activeIndex = sliderDo(sliderTop, sliderBottom, activeIndex);
-        }, speed);
+        // myInterval = setInterval(function () {
+        //   activeIndex++;
+        //   activeIndex = sliderDo(sliderTop, sliderBottom, activeIndex);
+        // }, speed);
         return false;
       });
       next.addEventListener("click", (e) => {
         e.preventDefault();
-        clearInterval(myInterval);
+        // clearInterval(myInterval);
         activeIndex++;
         activeIndex = sliderDo(sliderTop, sliderBottom, activeIndex);
-        myInterval = setInterval(function () {
-          activeIndex--;
-          activeIndex = sliderDo(sliderTop, sliderBottom, activeIndex);
-        }, speed);
+        // myInterval = setInterval(function () {
+        //   activeIndex--;
+        //   activeIndex = sliderDo(sliderTop, sliderBottom, activeIndex);
+        // }, speed);
         return false;
       });
       for (let i = 0; i < li.length; i++) {
@@ -49,12 +53,12 @@ const HeroSlider = () => {
         } else {
           return false;
         }
-        clearInterval(myInterval);
+        // clearInterval(myInterval);
         activeIndex = sliderDo(sliderTop, sliderBottom, activeIndex);
-        myInterval = setInterval(function () {
-          activeIndex++;
-          activeIndex = sliderDo(sliderTop, sliderBottom, activeIndex);
-        }, speed);
+        // myInterval = setInterval(function () {
+        //   activeIndex++;
+        //   activeIndex = sliderDo(sliderTop, sliderBottom, activeIndex);
+        // }, speed);
         return false;
       }
     });
@@ -97,14 +101,11 @@ const HeroSlider = () => {
       indexNext2 += topLength;
     }
     let li = sliderTop.getElementsByTagName("li");
+    console.log({ li });
     for (let i = 0; i < li.length; i++) {
       const element = li[i];
-      element.classList.remove("prev", "prev2", "active", "next", "next2");
-      // element.setAttribute(`data-index${indexNext}`);
+      element.classList.remove("prev", "active", "next");
     }
-    sliderTop
-      .querySelector('li[data-index="' + indexPrev2 + '"]')
-      .classList.add("prev2");
     sliderTop
       .querySelector('li[data-index="' + indexPrev + '"]')
       .classList.add("prev");
@@ -114,9 +115,6 @@ const HeroSlider = () => {
     sliderTop
       .querySelector('li[data-index="' + indexNext + '"]')
       .classList.add("next");
-    sliderTop
-      .querySelector('li[data-index="' + indexNext2 + '"]')
-      .classList.add("next2");
     return activeIndex;
   };
 
@@ -127,7 +125,6 @@ const HeroSlider = () => {
           className="fn__maintitle big"
           data-text="Welcome to AVR CLUB, VIT Chennai"
           data-align="center"
-        
         >
           Welcome to AVR CLUB, VIT Chennai
         </h3>
@@ -137,31 +134,45 @@ const HeroSlider = () => {
             <img src="img/logo.png" alt="" />
             <ul>
               <li className="prev" data-index={1}>
-              <div className="item has_video">
+                <div className="item">
                   <img src="img/logo.png" alt="" />
                   <a
                     className="popup-youtube metaportal_fn_videobutton"
                     href="https://www.instagram.com/tv/CmvmcxUDCBc/?utm_source=ig_embed&amp;utm_campaign=loading"
                   >
-                    <img src="/svg/play.svg" alt="" className="fn__svg" />
+                    {/* <img src="/svg/Instagram.svg" alt="" className="fn__svg" /> */}
+                    <FaInstagram className="fn__svg" />
                   </a>
                   <div className="item_in">
                     <div className="img" data-bg-img="img/logo.png" />
                   </div>
                 </div>
-    
               </li>
               <li className="active" data-index={2}>
                 <div className="item">
                   <img src="img/logo.png" alt="" />
+                  <a
+                    className="popup-youtube metaportal_fn_videobutton"
+                    href="https://www.instagram.com/tv/CmvmcxUDCBc/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  >
+                    {/* <img src="/svg/Instagram.svg" alt="" className="fn__svg" /> */}
+                    <FaLinkedin className="fn__svg" />
+                  </a>
                   <div className="item_in">
                     <div className="img" data-bg-img="img/logo.png" />
                   </div>
                 </div>
               </li>
               <li className="next" data-index={3}>
-              <div className="item">
+                <div className="item">
                   <img src="img/logo.png" alt="" />
+                  <a
+                    className="popup-youtube metaportal_fn_videobutton"
+                    href="https://www.instagram.com/tv/CmvmcxUDCBc/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  >
+                    {/* <img src="/svg/Instagram.svg" alt="" className="fn__svg" /> */}
+                    <FaSquareXTwitter className="fn__svg" />
+                  </a>
                   <div className="item_in">
                     <div className="img" data-bg-img="img/logo.png" />
                   </div>
@@ -170,30 +181,17 @@ const HeroSlider = () => {
               <li className="next2" data-index={4}>
                 <div className="item">
                   <img src="img/logo.png" alt="" />
-                  <div className="item_in">
-                    <div className="img" data-bg-img="img/logo.png" />
-                  </div>
-                </div>
-              </li>
-              <li data-index={5}>
-                <div className="item">
-                  <img src="img/logo.png" alt="" />
-                  <div className="item_in">
-                    <div className="img" data-bg-img="img/logo.png" />
-                  </div>
-                </div>
-              </li>
-              <li data-index={6}>
-                <div className="item">
-                  <img src="img/logo.png" alt="" />
-                  <div className="item_in">
-                    <div className="img" data-bg-img="img/logo.png" />
-                  </div>
-                </div>
-              </li>
-              <li className="prev2" data-index={7}>
-                <div className="item">
-                  <img src="img/logo.png" alt="" />
+                  <a
+                    className="popup-youtube metaportal_fn_videobutton"
+                    href="https://www.instagram.com/tv/CmvmcxUDCBc/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  >
+                    {/* <img src="/svg/Instagram.svg" alt="" className="fn__svg" /> */}
+                    <FaDiscord
+                      fill="white"
+                      stroke="white"
+                      className="fn__svg"
+                    />
+                  </a>
                   <div className="item_in">
                     <div className="img" data-bg-img="img/logo.png" />
                   </div>
@@ -222,16 +220,11 @@ const HeroSlider = () => {
         {/* Description */}
         <div className="fn_cs_desc">
           <p>
-          AVR Club is lit! It's like a virtual reality hangout where we dive into epic digital realms. Get ready to level up your personal space with some mind-blowing visuals. We're all about creating a dope mixed reality virtual world. 🚀✨
+            AVR Club is lit! It's like a virtual reality hangout where we dive
+            into epic digital realms. Get ready to level up your personal space
+            with some mind-blowing visuals. We're all about creating a dope
+            mixed reality virtual world. 🚀✨
           </p>
-          <a
-            href="https://virtualrealityclub.vercel.app/"
-            className="metaportal_fn_button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>Explore More</span>
-          </a>
         </div>
         {/* !Description */}
       </div>

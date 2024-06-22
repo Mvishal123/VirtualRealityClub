@@ -5,13 +5,19 @@ const About = () => {
       {/* About Shortcode */}
       <div className="fn_cs_about">
         <div className="left_part">
-          <div className="img">
-            <div className="img_in" data-bg-img="">
-              <img src="" alt="" />
-            </div>
+          <div className="">
+            <video
+              src="/video1.mp4"
+              type="video/mp4"
+              autoPlay={true}
+              loop={true}
+              muted={true}
+              playsInline={true}
+            ></video>
           </div>
           <div className="bg_overlay">
-            <div className="bg_color" />
+            <h3></h3>
+
             <div className="bg_image" data-bg-img="" />
           </div>
         </div>
@@ -27,20 +33,21 @@ const About = () => {
               </div>
             </div>
             <div className="desc">
-              <p>Welcome to the AVR Club at VIT Chennai! 🚀🕶️ <br></br><br></br>Immerse yourself in the realms of augmented and virtual reality, where reality and imagination collide.
-                🌐✨<br></br><br></br>The AVR Club is not just a club; it’s a portal to an alternate reality where innovation knows no bounds!  🌈🔍<br></br><br></br>We are a dynamic team of tech enthusiasts, visionaries and we’re here to explore the limitless possibilities this world has to offer.
-                💻🌌<br></br><br></br>Join us at the AVR Club and be ready to witness reality through a new lens. 👓🌟<br></br>The future is virtual, and the adventure begins here!🌐🚀
+              <p>
+                Welcome to the AVR Club at VIT Chennai! 🚀🕶️ <br></br>
+                <br></br>Immerse yourself in the realms of augmented and virtual
+                reality, where reality and imagination collide. 🌐✨<br></br>
+                <br></br>The AVR Club is not just a club; it’s a portal to an
+                alternate reality where innovation knows no bounds! 🌈🔍
+                <br></br>
+                <br></br>We are a dynamic team of tech enthusiasts, visionaries
+                and we’re here to explore the limitless possibilities this world
+                has to offer. 💻🌌<br></br>
+                <br></br>Join us at the AVR Club and be ready to witness reality
+                through a new lens. 👓🌟<br></br>The future is virtual, and the
+                adventure begins here!🌐🚀
               </p>
-
             </div>
-            <a
-              href="/"
-              className="metaportal_fn_button"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span>Join Now</span>
-            </a>
           </div>
         </div>
       </div>
@@ -48,31 +55,7 @@ const About = () => {
       <div className="container">
         {/* Mint Shortcode */}
         <div className="fn_cs_mint">
-          <div className="left_part">
-            <h3 className="fn__maintitle" data-text="Fun-tastic Events in AVR Club">
-              Fun-tastic Events in AVR Club
-            </h3>
-            <div className="fn_cs_divider">
-              <div className="divider">
-                <span />
-                <span />
-              </div>
-            </div>
-            <div className="desc">
-              <p>
-                Get ready for a whirlwind of excitement with our Fun-tastic Events at VIT Chennai AVR Club! 🎉
-              </p>
-              <p>
-                Get ready for a blast! 🚀 Our Fun-tastic Events at VIT Chennai AVR Club are all about mixing learning with a whole lot of fun. From epic gaming showdowns to mind-bending art exhibits, we've got something for everyone. Join us and let's make tech awesome together! 🎉🎮🎨
-              </p>
-            </div>
-            <Link href="/nft-single">
-              <a className="metaportal_fn_button">
-                <span>Join Now</span>
-              </a>
-            </Link>
-          </div>
-          <div className="right_part">
+          <div className="main-grid">
             {/* Steps Shortcode */}
             <div className="fn_cs_steps">
               <ul>
@@ -80,7 +63,32 @@ const About = () => {
                   <div className="item">
                     <div className="item_in">
                       <h3 className="fn__gradient_title">Play</h3>
-                      <p>Jump into the virtual playground and score a chance to win!</p>
+                      <p>
+                        Jump into the virtual playground and score a chance to
+                        win!
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="item">
+                    <div className="item_in">
+                      <h3 className="fn__gradient_title">Play</h3>
+                      <p>
+                        Jump into the virtual playground and score a chance to
+                        win!
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div className="item">
+                    <div className="item_in">
+                      <h3 className="fn__gradient_title">Play</h3>
+                      <p>
+                        Jump into the virtual playground and score a chance to
+                        win!
+                      </p>
                     </div>
                   </div>
                 </li>
@@ -96,7 +104,9 @@ const About = () => {
                   <div className="item">
                     <div className="item_in">
                       <h3 className="fn__gradient_title">Enjoy</h3>
-                      <p>Summon your coding to conjure up some digital magic!</p>
+                      <p>
+                        Summon your coding to conjure up some digital magic!
+                      </p>
                     </div>
                   </div>
                 </li>
